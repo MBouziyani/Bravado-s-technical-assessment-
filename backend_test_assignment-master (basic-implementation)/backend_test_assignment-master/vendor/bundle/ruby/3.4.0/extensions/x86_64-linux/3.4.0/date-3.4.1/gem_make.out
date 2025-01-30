@@ -1,0 +1,24 @@
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
+/home/django/.local/share/mise/installs/ruby/3.4.1/bin/ruby extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with -Werror... yes
+checking for altzone in time.h with -Werror... no
+creating Makefile
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-yr8e1f sitelibdir\=./.gem.20250130-5157-yr8e1f clean
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-yr8e1f sitelibdir\=./.gem.20250130-5157-yr8e1f
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.so
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-yr8e1f sitelibdir\=./.gem.20250130-5157-yr8e1f install
+/usr/bin/install -c -m 0755 date_core.so ./.gem.20250130-5157-yr8e1f
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-yr8e1f sitelibdir\=./.gem.20250130-5157-yr8e1f clean

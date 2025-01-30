@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "2c7873d9-931b-4ae8-8fec-fd184ea26de2",
+		"name": "Car Market API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34920251"
+	},
+	"item": [
+		{
+			"name": "GET /api/v1/cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/cars?user_id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"cars"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /api/v1/cars (Filter by brand)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "ttp://localhost:3000/api/v1/cars?user_id=1&query=Volkswagen",
+					"protocol": "ttp",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"cars"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1"
+						},
+						{
+							"key": "query",
+							"value": "Volkswagen"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /api/v1/cars (Filter by price range)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/cars?user_id=1&price_min=30000&price_max=40000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"cars"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1"
+						},
+						{
+							"key": "price_min",
+							"value": "30000"
+						},
+						{
+							"key": "price_max",
+							"value": "40000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /api/v1/cars (Pagination)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "URL: http://localhost:3000/api/v1/cars?user_id=1&page=2",
+					"protocol": "URL: http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"cars"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1"
+						},
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

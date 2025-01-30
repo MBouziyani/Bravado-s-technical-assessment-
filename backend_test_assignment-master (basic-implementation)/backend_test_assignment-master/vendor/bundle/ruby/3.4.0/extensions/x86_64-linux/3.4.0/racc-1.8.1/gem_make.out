@@ -1,0 +1,18 @@
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/home/django/.local/share/mise/installs/ruby/3.4.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-nsm9et sitelibdir\=./.gem.20250130-5157-nsm9et clean
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-nsm9et sitelibdir\=./.gem.20250130-5157-nsm9et
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-nsm9et sitelibdir\=./.gem.20250130-5157-nsm9et install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20250130-5157-nsm9et/racc
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-nsm9et sitelibdir\=./.gem.20250130-5157-nsm9et clean

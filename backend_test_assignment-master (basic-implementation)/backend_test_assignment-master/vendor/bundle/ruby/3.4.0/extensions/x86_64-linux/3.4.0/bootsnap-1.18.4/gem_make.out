@@ -1,0 +1,22 @@
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.4/ext/bootsnap
+/home/django/.local/share/mise/installs/ruby/3.4.1/bin/ruby extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-1deq8l sitelibdir\=./.gem.20250130-5157-1deq8l clean
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-1deq8l sitelibdir\=./.gem.20250130-5157-1deq8l
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-1deq8l sitelibdir\=./.gem.20250130-5157-1deq8l install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20250130-5157-1deq8l/bootsnap
+
+current directory: /mnt/c/Users/ORIGINAL SHOP/Desktop/Bravado's/backend_test_assignment-master/vendor/bundle/ruby/3.4.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20250130-5157-1deq8l sitelibdir\=./.gem.20250130-5157-1deq8l clean
